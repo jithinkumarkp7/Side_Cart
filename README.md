@@ -1,4 +1,4 @@
-# Open Assessment Frontend
+# Side Cart
 
 A modern React frontend project powered by:
 
@@ -6,10 +6,7 @@ A modern React frontend project powered by:
 - 🚀 **Vite**
 - 💨 **Tailwind CSS 4**
 - 🦾 **TypeScript**
-- 🔥 **Apollo Client + GraphQL**
-- 🌍 **i18next** for localization
 - ✅ **React Hook Form** with **Zod** for form handling and validation
-- 🧱 **Open UI** components
 - 🧹 **ESLint** with **Prettier**
 
 ---
@@ -19,7 +16,7 @@ A modern React frontend project powered by:
 ### 1. Clone the repository
 
 ```bash
-git clone https://gitlab.opentrends.net/innovation-office/openorg/openorg-fe
+git clone https://github.com/jithinkumarkp7/Side_Cart.git
 cd OpenOrg-FE
 ```
 
@@ -91,8 +88,6 @@ pnpm commit
 | Schema Validation   | [`zod`](https://zod.dev/), [`@hookform/resolvers`](https://react-hook-form.com/get-started#SchemaValidation)     |
 | Routing             | [`react-router-dom`](https://reactrouter.com/en/main)                                                            |
 | State/Data Fetching | [`@apollo/client`](https://www.apollographql.com/docs/react/), [`graphql`](https://graphql.org/)                 |
-| Localization        | [`i18next`](https://www.i18next.com/), [`react-i18next`](https://react.i18next.com/)                             |
-| Error Handling      | [`react-error-boundary`](https://www.npmjs.com/package/react-error-boundary)                                     |
 | Linting             | `eslint`, `eslint-plugin-react`, `eslint-plugin-react-hooks`, `eslint-plugin-prettier`, `eslint-config-prettier` |
 | Formatting          | [`prettier`](https://prettier.io/)                                                                               |
 | Type Checking       | [`typescript`](https://www.typescriptlang.org/)                                                                  |
@@ -120,11 +115,8 @@ updating soon
 - [x] React 19 + Vite
 - [x] TypeScript support
 - [x] Tailwind CSS integration
-- [x] Apollo Client + GraphQL setup
 - [x] React Router DOM v7
 - [x] React Hook Form + Zod for validation
-- [x] i18next localization
-- [x] Error Boundary handling
 - [x] ESLint + Prettier configured
 
 ---
@@ -132,17 +124,5 @@ updating soon
 ## 📦 Package Manager
 
 Using [`pnpm`](https://pnpm.io/) for faster, disk-efficient dependency management.
-
----
-
-## CI/CD
-
-updating soon
-
----
-
-## 📚 Documentation
-
-📄 Visit: docs (https://docs.google.com/document/d/1Qf0dfvU9wyP3kqjyWrkccSFVrBEO6FkbYa3KMIZRhJo/edit?usp=sharing) for coding standards
 
 ---
