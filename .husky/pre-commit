@@ -1,0 +1,4 @@
+
+# Run lint checks
+pnpm run lint
+
