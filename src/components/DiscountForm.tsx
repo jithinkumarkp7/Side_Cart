@@ -48,7 +48,6 @@ const DiscountForm: React.FC<Props> = ({ editDiscount, onClose }) => {
           {editDiscount ? "Edit Discount" : "Add Discount"}
         </h2>
 
-        {/* Discount Description */}
         <div className="mb-4">
           <label className="block text-sm font-medium mb-1">Label</label>
           <input
@@ -59,7 +58,6 @@ const DiscountForm: React.FC<Props> = ({ editDiscount, onClose }) => {
           />
         </div>
 
-        {/* Price Type */}
         <div className="mb-4">
           <label className="block text-sm font-medium mb-1">Applies To</label>
           <div className="flex gap-2">
@@ -88,7 +86,6 @@ const DiscountForm: React.FC<Props> = ({ editDiscount, onClose }) => {
           </div>
         </div>
 
-        {/* Discount Type & Value */}
         <div className="mb-4 flex gap-2">
           <select
             className="w-1/3 border rounded-lg p-2"
@@ -106,7 +103,6 @@ const DiscountForm: React.FC<Props> = ({ editDiscount, onClose }) => {
           />
         </div>
 
-        {/* Duration (Monthly Only) */}
         {priceType === "monthly" && (
           <div className="mb-4">
             <label className="block text-sm font-medium mb-1">
@@ -121,7 +117,6 @@ const DiscountForm: React.FC<Props> = ({ editDiscount, onClose }) => {
           </div>
         )}
 
-        {/* Actions */}
         <div className="flex justify-end gap-3">
           <button
             className="px-4 py-2 rounded-lg border text-gray-600"

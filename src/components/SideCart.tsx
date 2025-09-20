@@ -17,8 +17,6 @@ const SideCart: React.FC<Props> = ({ oneTimePrice, monthlyPrice }) => {
   return (
     <div className="bg-white p-6 rounded-xl shadow w-[340px]">
       <h3 className="text-lg font-semibold mb-4">Side Cart</h3>
-
-      {/* Base Prices */}
       <div className="mb-4">
         <p className="flex justify-between">
           <span className="text-gray-600">Base One-time Price</span>
@@ -30,7 +28,6 @@ const SideCart: React.FC<Props> = ({ oneTimePrice, monthlyPrice }) => {
         </p>
       </div>
 
-      {/* Discounts */}
       {discounts.length > 0 && (
         <div className="mb-4">
           <h4 className="font-semibold mb-2">Discounts</h4>
@@ -49,7 +46,6 @@ const SideCart: React.FC<Props> = ({ oneTimePrice, monthlyPrice }) => {
         </div>
       )}
 
-      {/* Final Prices */}
       <div className="border-t pt-4">
         <p className="flex justify-between font-semibold">
           <span>Final One-time</span>
