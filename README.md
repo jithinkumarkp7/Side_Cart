@@ -17,7 +17,7 @@ A modern React frontend project powered by:
 
 ```bash
 git clone https://github.com/jithinkumarkp7/Side_Cart.git
-cd OpenOrg-FE
+cd SideCart-FE
 ```
 
 ### 2. Install dependencies
